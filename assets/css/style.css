@@ -10,7 +10,6 @@
   width: 70%;
   height: 100vh;
   margin: 0 auto;
-  background-color: blue;
 }
 
 .slide-wrapper{
@@ -23,8 +22,6 @@
 .slide-wrapper .images{
   height: 100%;
   text-align: center;
-  background-color: rosybrown;
-
 }
 
 .slide-wrapper .images img{
