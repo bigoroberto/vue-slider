@@ -15,19 +15,19 @@
 
       <div class="slide-wrapper">
 
-        <div class="prev">
+        <div class="prev" @click='prevSlide'>
           <i class="fas fa-angle-left"></i>
         </div>
 
         <div class="images">
-          <img :src="slider[contatoreSlide]" alt="">
+          <img :src="slider[counterSlide]" alt="">
         </div>
 
         <div class="nav">
           <i class="fas-fa-circle"></i>
         </div>
 
-        <div class="next">
+        <div class="next" @click='nextSlide'>
           <i class="fas fa-angle-right"></i>
         </div>
       </div>
